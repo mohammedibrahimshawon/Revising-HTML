@@ -5,12 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore basic CSS</title>
     <style>
+        /* slecting by element */
         li{
             color: hsl(0, 59%, 41%);
             width: 100;
         }
         p{
             background-color: rgb(199, 178, 152);
+            width: 500px;
+        }
+        #short{
+            color: darkblue;
+        }
+        #embeded{
+            font-size: larger;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: black;
+            background-color: beige;
+        }
+        .player{
+            color: green;
+            text-align: center;
         }
     </style>
 </head>
@@ -18,12 +33,12 @@
     <h1 style="color: yellowgreen;">Basic CSS</h1>
     <h2 style="background-color: aquamarine;">Here you go</h2>
     <p>CSS meaning: Cascading style sheet</p>
-    <p>style is colorful</p>
+    <p id="short">style is colorful</p>
     <p>needs style rule and value separated by colon(:) </p>
-    <p>after each style you need to use semi colon(;) </p>
+    <p class="player">after each style you need to use semi colon(;) </p>
     <ul>
         <li>inline</li>
-        <li>internal</li>
+        <li id="embeded">internal</li>
         <li>external</li>
     </ul>
 </body>

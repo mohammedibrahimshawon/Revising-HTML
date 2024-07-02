@@ -20,12 +20,25 @@
         *{
             /* margin: 200; */
         }
+        input{
+            font-size: 30px;
+        }
+        input[type="password"]{
+            color: blue;
+        }
+        .red{
+            color: red;
+        }
+        .kala{
+            color: black;
+            background-color: cyan;
+        }
 
     </style>
 </head>
 <body>
     <h3>exploring mixed Selector</h3>
-    <p>My first line CSS</p>
+    <p>My first <span class="red">line CSS</span></p>
     <p class="yellow bold">My second line CSS</p>
     <p class="bold">My third line CSS</p>
     <p>My fourth line CSS</p>
@@ -42,6 +55,15 @@
         <li class="yellow bold">Universal Selector</li>
 
     </ol>
+    <div class="kala">
+        <h3>my blog</h3>
+        <p class="kala">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At illo enim optio, obcaecati repudiandae, qui labore placeat rerum quos quisquam est ducimus doloribus. Ipsam quia iste praesentium neque odit esse?</p>
+    </div>
+    <form action="">
+        <input type="text">
+        <input type="email">
+        <input type="password" name="" id="">
+    </form>
 
 </body>
 </html>

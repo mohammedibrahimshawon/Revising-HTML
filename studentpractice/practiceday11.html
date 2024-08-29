@@ -6,20 +6,36 @@
             p {
                 font-weight: bold;
             }
-            table {
+            .table1  {
                 border: 2px solid black;
                 border-radius: 10px;
             }
-            th {
+            .table1 th {
                 background-color: yellow;
                 border: 2px solid black;
 
             }
-            td {
+            .table1 td {
                 background-color:lightblue;
                 border: 2px solid black;
 
             }
+
+            .table2  {
+                border: 2px solid black;
+                border-radius: 10px;
+            }
+            .table2 th {
+                background-color: rgb(12, 245, 51);
+                border: 2px solid black;
+
+            }
+            .table2 td {
+                background-color:rgb(230, 173, 208);
+                border: 2px solid black;
+
+            }
+            
             
           
             /* body {background-color: cyan;} */
@@ -27,31 +43,73 @@
     </head>
     <body>
         <p>This is a Table</p>
-        <table style="width: 100%;">
-            <caption>class 7</caption>
-            <tr>
-                <th>Name</th>
-                <th>Class</th>
-                <th>Roll</th>
-            </tr>
-            <tr>
-                <td>Arash</td>
-                <td>7</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>Afifbot</td>
-                <td>2</td>
-                <td>64</td>
-            </tr>
-            <tfoot>
-                <tr>
-                  <td>Alif</td>
-                  <td>-1</td>
-                  <td>100</td>
-                </tr>
-              </tfoot>
-        </table>
+        <section>
+
+            <div class="table1">
+
+
+                <table style="width: 100%;">
+                    <caption>class 7</caption>
+                    <tr>
+                        <th style="width:25%">Name</th>
+                        <th style="width:25%">Class</th>
+                        <th style="width:50%">Roll</th>
+                    </tr>
+                    <tr>
+                        <td>Arash</td>
+                        <td>7</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Afifbot</td>
+                        <td>2</td>
+                        <td>64</td>
+                    </tr>
+                    <tfoot>
+                        <tr>
+                          <td>Alif</td>
+                          <td>-1</td>
+                          <td>100</td>
+                        </tr>
+                      </tfoot>
+                </table>
+
+
+
+            </div>
+        </section>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <section>
+            <div class="table2">
+                <table style="width: 100%;">
+                    <tr>
+                        <th>Member name</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>Arash</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>Afif</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Alif</td>
+                        <td>4</td>
+                    </tr>
+                </table>
+
+
+
+            </div>
+        </section>
+        
+        
 
     </body>
 </html>

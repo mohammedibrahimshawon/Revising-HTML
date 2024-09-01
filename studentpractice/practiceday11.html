@@ -6,6 +6,12 @@
             p {
                 font-weight: bold;
             }
+            th, td {
+                padding-top: 10px;
+                padding-bottom: 20px;
+                padding-left: 30px;
+                padding-right: 40px;
+            }
             .table1  {
                 border: 2px solid black;
                 border-radius: 10px;
@@ -35,21 +41,33 @@
                 border: 2px solid black;
 
             }
-            
-            
-          
+
+            .table3  {
+                border: 2px solid black;
+                border-radius: 10px;
+            }
+            .table3 th {
+                background-color: yellow;
+                border: 2px solid black;
+
+            }
+            .table3 td {
+                background-color:lightblue;
+                border: 2px solid black;
+
+            }
             /* body {background-color: cyan;} */
         </style>
     </head>
     <body>
-        <p>This is a Table</p>
+        <p>Garam hai!  Garam hai!</p>
         <section>
 
             <div class="table1">
 
 
                 <table style="width: 100%;">
-                    <caption>class 7</caption>
+                    <caption>class</caption>
                     <tr>
                         <th style="width:25%">Name</th>
                         <th style="width:25%">Class</th>
@@ -67,15 +85,13 @@
                     </tr>
                     <tfoot>
                         <tr>
-                          <td>Alif</td>
+                          <td colspan="2">Total</td>
                           <td>-1</td>
-                          <td>100</td>
+                          
                         </tr>
                       </tfoot>
                 </table>
-
-
-
+                
             </div>
         </section>
         
@@ -86,6 +102,7 @@
         <section>
             <div class="table2">
                 <table style="width: 100%;">
+                    <caption>My Family</caption>
                     <tr>
                         <th>Member name</th>
                         <th>Age</th>
@@ -105,6 +122,65 @@
                 </table>
 
 
+
+            </div>
+        </section>
+
+        <br><br><br><br>
+
+        <section>
+            <div class="table3">
+                <table style="width: 100%;">
+                    <caption>Expense</caption>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Rate</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr>
+                        <td>Potato</td>
+                        <td>2 kg</td>
+                        <td>80</td>
+                        <td>160</td>
+                    </tr>
+                    <tr>
+                        <td>Chips</td>
+                        <td>2</td>
+                        <td>15</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>Milk</td>
+                        <td>1 liter</td>
+                        <td>90</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                    <td>Rice</td>
+                    <td>3 kg</td>
+                    <td>80</td>
+                    <td>240</td>
+                    </tr>
+                    <tr>
+                        <td>Egg</td>
+                        <td>12</td>
+                        <td>10</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" colspan="2">Total</td>
+                        <td colspan="2">640</td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>Egg</td>
+                        <td>12</td>
+                        <td>10</td>
+                        <td>120</td>
+                    </tr>
+                </table>
 
             </div>
         </section>

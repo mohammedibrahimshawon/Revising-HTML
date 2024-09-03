@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zebra Strip Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            background: linear-gradient(to right, #00b4db, #0083b0);
+            color: white;
+            padding: 20px;
+            font-size: 2em;
+            margin: 0;
+        }
+        table {
+            width: 80%;
+            margin: 50px auto;
+            border-collapse: collapse;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #0083b0;
+            color: white;
+            font-size: 1.1em;
+        }
+        tr:nth-child(even) {
+            background-color: #e0f7fa;
+        }
+        tr:hover {
+            background-color: #b2ebf2;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0083b0;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Zebra Strip Table</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Roll</th>
+        </tr>
+        <tr>
+            <td>Arash</td>
+            <td>7</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Afif</td>
+            <td>2</td>
+            <td>64</td>
+        </tr>
+        <tr>
+            <td>Alif</td>
+            <td>0</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Dont know</td>
+            <td>Entity 303</td>
+            <td>!@$#$^*</td>
+        </tr>
+    </table>
+    <footer>
+        &copy; 2024 Your Company Name. All rights reserved.
+    </footer>
+</body>
+</html>

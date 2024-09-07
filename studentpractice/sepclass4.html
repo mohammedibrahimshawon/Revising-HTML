@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .Lion {
+
+
+            margin: auto;
+            border: 3px solid black;
+            width: 50%;
+            padding: 10px;
+
+
+
+
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<main>
+
+    <header>
+        <h1>Arash Kitchen</h1>
+        <button><a href="#">Home</a></button>
+        <button><a href="#menu">Menu</a></button>
+        <button><a href="#service">Service</a></button>
+    </header>
+
+
+    <body>
+
+
+        <section class="Lion">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_g_9KMvsInk?si=uzjn8fqx6GxDlIDe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+        </section>
+
+
+
+        
+        <section>
+            <div id="menu">
+
+                <h2>Menu</h2>
+                <li>Chicken fry</li>
+                <li>Chicken curry</li>
+                <li>Vagetable</li>
+                <li>Soup</li>
+                <li>Burger</li>
+
+
+
+            </div>
+
+
+        </section>
+
+
+        <section>
+
+            <div id="service">
+
+
+                <h2>Services</h2>
+                <li>Home delivary</li>
+                <li>Dine in</li>
+                <li>Take away</li>
+
+
+
+            </div>
+
+
+        </section>
+
+
+        <section>
+
+            <h1>Light of my life</h1>
+
+            <p>Here, a JavaScript changes the value of the src (source) attribute of an image.</p>
+
+            <script>
+            function light(sw) {
+              var pic;
+              if (sw == 0) {
+                pic = "pic_bulboff.gif"
+              } else {
+                pic = "pic_bulbon.gif"
+              }
+              document.getElementById('myImage').src = pic;
+            }
+            </script>
+            
+            <img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+            
+            <p>
+            <button type="button" onclick="light(1)">Light On</button>
+            <button type="button" onclick="light(0)">Light Off</button>
+            </p>
+                
+
+
+
+        </section>
+
+        <section>
+            <!-- <button type="button"onclick="myfunction()">Click me!</button>
+            <p id="demo">Hi! I am Arash</p>
+
+
+            <script>
+                function myFunction() { 
+                  document.getElementById("demo").innerHTML = "Hello Everyone";
+                }
+                </script> -->
+
+          
+                <p>JavaScript can change the content of an HTML element:</p>
+
+                <button type="button" onclick="myFunction()">Click Me!</button>
+
+                <p id="demo">This is a demonstration.</p>
+
+                <script>
+                function myFunction() { 
+                  document.getElementById("demo").innerHTML = "Hello JavaScript!";
+                  }
+                 </script>
+
+                
+        </section>
+
+
+        
+
+    </body>
+
+
+
+
+
+
+</main>
+
+</html>

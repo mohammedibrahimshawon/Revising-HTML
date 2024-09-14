@@ -1,0 +1,48 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Learning JavaScript</h1>
+        <p id="demo">JavaScript is HARDER then C/C++</p>
+
+        <script>
+            function myFunction() {
+                // document.getElementById("demo").style.color =
+                // document.getElementById("demo").style.color = "red";
+                document.getElementById("demo").style.color = "blue";
+
+            }
+
+          
+        </script>
+
+            <button type="button" onclick="myFunction()">Click Me!</button>
+
+        <script>
+
+            function light(sw) {
+              var pic;
+              if (sw == 0) {
+                pic = "pic_bulboff.gif"
+              } else {
+                pic = "pic_bulbon.gif"
+              }
+              document.getElementById('myImage').src = pic;
+            }
+
+        </script>
+
+        
+
+
+        <img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+            
+        <p>
+            <button type="button" onclick="light(1)">Light On</button>
+            <button type="button" onclick="light(0)">Light Off</button>
+        </p>
+
+
+    </body>
+</html>

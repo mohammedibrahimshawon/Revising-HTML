@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <Title>Java Script</Title>
+
+        <script>
+            function myFunction() {
+                document.getElementById("Demo").innerHTML="I read in class Six.";
+            }
+        </script>
+        <style>
+            .bulb{
+               align-content: center;
+               margin-left: 400px;
+
+            }
+
+        </style>
+    </head>
+        <body>
+            <h2>Demo JavaScript</h2>
+        
+            <p id="Demo">I read in class Five</p>
+
+            <button type="button" onclick="myFunction()">Try it</button>
+
+            <script>
+                function light(sw) {
+                    var pic;
+                    if (sw==0) {
+                        pic = "pic_bulboff.gif"
+                    } else {
+                        pic = "pic_bulbon.gif"
+                    }
+
+                    document.getElementById('myImage').src = pic;
+                }
+            </script>
+            <img class="bulb" id="myImage" src="pic_bulboff.gif"width="100" height="180">
+
+            <p>
+                <button type="button" onclick="light(1)">Light on</button>
+                <button type="button" onclick="light(0)">Light off</button>
+            </p>
+
+        </body>
+</html>
